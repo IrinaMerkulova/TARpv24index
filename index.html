@@ -11,6 +11,22 @@
 
     <h1> TARpv24 Õpilaste ainemapid</h1>
 
+    <!-- MINU OSA ALGUS -->
+    <section class="minu-osa">
+        <h2>Minu ainemapp</h2>
+
+        <p>Õpi SQL-i ja andmebaase lihtsalt ja arusaadavalt!</p>
+
+        <a href="SIIA_SINU_LINK" target="_blank">
+            Vaata minu lehte
+        </a>
+
+        <br><br>
+
+        <button onclick="alert('Tere!')">Vajuta</button>
+    </section>
+    <!-- MINU OSA LÕPP -->
+
     <!-- ILLIA BLAHUN -->
     <section class="illiabl">
         <h2>Illia Blahun portfoolio</h2>
@@ -112,22 +128,75 @@
     </script>
     <!-- NASTJA OSA LÕPP -->
 
+
+    <!-- ORLENKO -->
+    <section class="OrlenkoOsa">
+        <h2>Minu ainemapp</h2>
+
+        <p>
+            Tere! Mina olen <strong>Nikita Orlenko</strong> ja see on minu portfoolio.
+            Siit leiad kõik minu projektid, õppematerjalid ja harjutused SQL-i, andmebaaside ning veebiarenduse kohta.
+            Olen loonud selle lehe selleks, et õppimine oleks lihtne ja lõbus.
+        </p>
+
+        <p>
+            Lisaks saad vaadata minu praktilisi töid, näha, kuidas ma lahendan ülesandeid ja leida kasulikke nippe andmebaaside haldamiseks.
+            Kui soovid õppida, kuidas luua oma ainemapp või arendada veebilehti, oled õiges kohas!
+        </p>
+
+        <a href="https://nikitaorlenko24.thkit.ee/WP" target="_blank">
+            Vaata minu lehte ja avasta minu projektid
+        </a>
+
+        <br><br>
+
+        <button onclick="tervita()">Klikka siia, et saada tervitus!</button>
+
+        <br><br>
+
+        <p>
+            💡 Nõuanne: ära jää ainult vaatama – proovi ja katseta! Minu leht on täis praktilisi näiteid ja selgitusi, mis aitavad sul SQL-i ja andmebaaside oskusi parandada.
+        </p>
+    </section>
+
+    <script>
+        function tervita() {
+            alert("Tere! Vaata minu portfooliot ja avasta praktilisi projekte!");
+        }
+    </script>
+
+    <script>
+        function tervita() {
+            alert("Tere! Vaata minu portfooliot!");
+        }
+    </script>
+    <!-- ORLENKO LÕPP -->
+
     <!-- Nikita Nikiforov ALGUS -->
     <section class="nikiforov-osa">
-        <h2 class="nikiforov-title">Nikita Nikiforov Ainemapp</h2>
+        <div class="nikiforov-header">
+            <h2 class="nikiforov-title">Nikita Nikiforov</h2>
+            <span class="nikiforov-badge">Ainemapp 2026</span>
+        </div>
 
-        <p>Tere! Siin on minu portfoolio, kus saad õppida <strong>SQL-i ja andmebaase</strong> lihtsalt ja arusaadavalt.</p>
+        <div class="nikiforov-content">
+            <p>Tere! Siin on minu portfoolio, kus saad õppida <strong>SQL-i ja andmebaase</strong> lihtsalt ja arusaadavalt.</p>
 
-        <p>Arendan oma oskusi ka veebitehnoloogiates, nagu <strong>HTML, CSS ja JavaScript</strong>.</p>
-        <p>Ja oskused tarkvara programmeerimisel <strong>Pythonis ja C#-is</strong>.</p>
+            <div class="nikiforov-skills-container">
+                <span class="nikiforov-skill-tag">HTML</span>
+                <span class="nikiforov-skill-tag">CSS</span>
+                <span class="nikiforov-skill-tag">JavaScript</span>
+                <span class="nikiforov-skill-tag">Python</span>
+                <span class="nikiforov-skill-tag">C#</span>
+                <span class="nikiforov-skill-tag">SQL</span>
+            </div>
+        </div>
 
-
-        <div class="nikiforov-actions">
+        <div class="nikiforov-footer">
             <a href="https://nikitanikiforov24.thkit.ee/" target="_blank" class="nikiforov-link">
-                Vaata minu lehte
+                Külasta minu veebilehte →
             </a>
-            <br><br>
-            <button onclick="nikiforovAlert()" class="nikiforov-button">Vajuta siia</button>
+            <button onclick="nikiforovAlert()" class="nikiforov-button">👋 Tervitus!</button>
         </div>
     </section>
 

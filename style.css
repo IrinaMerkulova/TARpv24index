@@ -278,40 +278,170 @@
     border-color: rgba(176, 196, 222, 0.7);
 }
 
-.nikiforov-osa {
-    border: 2px solid green;
-    padding: 15px;
-    margin: 20px;
-    border-radius: 10px;
-    background-color: #f9fff9;
+/*------------------ORLENKO-------------------------------*/
+.OrlenkoOsa {
+    background: linear-gradient(135deg, #a8edea, #fed6e3);
+    border: 3px solid #00b894;
+    padding: 25px;
+    margin: 25px auto;
+    border-radius: 15px;
+    text-align: center;
+    max-width: 500px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.nikiforov-osa h2.nikiforov-title {
-    color: green;
-    margin-top: 0;
+.OrlenkoOsa:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.25);
+}
+
+.OrlenkoOsa h2 {
+    color: #00b894;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+.OrlenkoOsa p {
+    font-size: 16px;
+    color: #2d3436;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.OrlenkoOsa a {
+    text-decoration: none;
+    color: white;
+    background-color: #00b894;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.OrlenkoOsa a:hover {
+    background-color: #019875;
+    transform: scale(1.05);
+}
+
+.OrlenkoOsa button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #0984e3;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.OrlenkoOsa button:hover {
+    background-color: #0652dd;
+    transform: scale(1.05);
+}
+/*------------------ORLENKO-------------------------------*/
+.nikiforov-osa {
+    border: 2px solid #2ecc71; /* Сочный зеленый */
+    padding: 25px;
+    margin: 30px auto;
+    border-radius: 15px;
+    background-color: #ffffff;
+    max-width: 600px;
+    box-shadow: 0 10px 20px rgba(46, 204, 113, 0.1); /* Легкая зеленая тень */
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Декоративная полоска сверху */
+.nikiforov-osa::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(90deg, #2ecc71, #27ae60);
+}
+
+.nikiforov-osa:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(46, 204, 113, 0.2);
+}
+
+.nikiforov-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.nikiforov-title {
+    color: #27ae60 !important;
+    margin: 0 !important;
+    font-size: 1.5rem !important;
+}
+
+.nikiforov-badge {
+    background: #e8f5e9;
+    color: #2e7d32;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+/* Стили для тегов технологий */
+.nikiforov-skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 15px 0;
+}
+
+.nikiforov-skill-tag {
+    background: #f1f8e9;
+    border: 1px solid #c5e1a5;
+    color: #33691e;
+    padding: 3px 10px;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-family: monospace;
+}
+
+.nikiforov-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
 }
 
 .nikiforov-link {
-    color: green;
+    color: #27ae60 !important;
     font-weight: bold;
-    text-decoration: underline;
+    text-decoration: none;
+    transition: 0.2s;
 }
 
 .nikiforov-link:hover {
-    color: darkgreen;
+    text-decoration: underline;
+    color: #1e8449 !important;
 }
 
 .nikiforov-button {
     cursor: pointer;
-    border: 1px solid green;
-    background-color: white;
-    color: green;
-    padding: 5px 10px;
-    border-radius: 5px;
+    border: 2px solid #2ecc71;
+    background-color: transparent;
+    color: #2ecc71;
+    padding: 8px 18px;
+    border-radius: 8px;
+    font-weight: bold;
     transition: 0.3s;
 }
 
 .nikiforov-button:hover {
-    background-color: green;
+    background-color: #2ecc71;
     color: white;
 }
