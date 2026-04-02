@@ -33,6 +33,11 @@
     </section>
     <!-- MINU OSA LÕPP -->
 
+    <!-- ILLIA BLAHUN -->
+    <section class="illiabl">
+        <h2>Illia Blahun portfoolio</h2>
+    </section>
+
 
     <section class="jurgen-section">
         <h2>Mark Jurgen portfoolio</h2>
@@ -49,6 +54,7 @@
     <!-- ILLIA BLAHUN -->
     <section class="illiabl">
         <h2>Illia Blahun portfoolio</h2>
+
 
         <p>
             Mina olen Illia Blahun, algaja arendaja, kes õpib TTÜHK teisel kursusel
@@ -93,6 +99,7 @@
                 <span class="maksim-feature-card__tag">React</span>
                 <span class="maksim-feature-card__tag">SQL</span>
             </div>
+
             <button class="maksim-feature-card__button" type="button" aria-expanded="false"
                 aria-controls="maksim-feature-extra"
                 onclick="const details = document.getElementById('maksim-feature-extra'); const expanded = this.getAttribute('aria-expanded') === 'true'; details.hidden = expanded; this.setAttribute('aria-expanded', String(!expanded)); this.textContent = expanded ? 'Näita rohkem' : 'Peida lisainfo';">
@@ -102,12 +109,77 @@
                 See on minu ainemapp ja portfoolio, kuhu kogun oma parimad veebitööd ning näitan,
                 kuidas ma samm-sammult lahendusi ehitan.
             </p>
+
+            <button class="maksim-feature-card__button" type="button"
+                onclick="window.open('https://maksimtsikvasvili24.thkit.ee/', '_blank', 'noopener,noreferrer');">
+                Mine minu lehele
+            </button>
+
         </div>
     </section>
     <!-- Maksimi osa lõpp -->
 
 
 
+
+
+    <!-- NASTJA OSA ALGUS -->
+    <section class="nastja-section">
+        <div class="nastja-card">
+            <div class="nastja-header">
+                <div class="nastja-avatar">
+                    <img src="nastja/foto.jpg" alt="Anastasiia Radasheva" class="nastja-foto">
+                </div>
+                <div class="nastja-info">
+                    <h2 class="nastja-nimi">Anastasiia Radasheva</h2>
+                    <p class="nastja-tiitel">TARpv24 · Full-stack õppija</p>
+                </div>
+            </div>
+            <p class="nastja-kirjeldus">
+                Tere! Olen 18-aastane programmeerimishuvilane TTHKst.
+                Minu ainemapist leiad materjale <strong>Python, C#, SQL, Robotika</strong> ja <strong>Veebirakenduste</strong> kohta.
+            </p>
+            <div class="nastja-teemad">
+                <span class="nastja-tag"> Python & OOP</span>
+                <span class="nastja-tag"> C#</span>
+                <span class="nastja-tag"> SQL / Andmebaasid</span>
+                <span class="nastja-tag"> Robotika</span>
+                <span class="nastja-tag"> Web</span>
+            </div>
+            <div class="nastja-nupud">
+                <a href="https://anastasiiaradasheva24.thkit.ee/wp/eng/" target="_blank" class="nastja-link-nupp">
+                    Vaata minu ainemappi →
+                </a>
+                <button class="nastja-hello-nupp" onclick="nastjaHello()">Üllata mind!</button>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function nastjaHello() {
+            const teated = [
+                "Tere!  Vaata minu ainemappi — seal on palju huvitavat!",
+                "Fun fact: SQL on mu lemmik aine ️",
+                "Ma õpin TTHKs TARpv24 rühmas ",
+                "Olen ehitanud rakendusi C#, Python ja Webiga! "
+            ];
+            const juhuslik = teated[Math.floor(Math.random() * teated.length)];
+            alert(juhuslik);
+        }
+    </script>
+    <!-- NASTJA OSA LÕPP -->
+
+    <section class="jurgen-section">
+        <h2>Mark Jurgen portfoolio</h2>
+
+        <p>Minu nimi on Mark, ma olen Tallinna Tööstushariduskeskus õpilane, õpin IT valdkonnas ja arenen aktiivselt algaja arendajana.
+
+            Mul on baasteadmised programmeerimises ja tehnoloogiates, sealhulgas Python, SQL, JavaScript, PHP, C# ja C++ (algeline tase).<br>
+            Ma oskan luua kasutajaliidesega rakendusi (näiteks Tkinteri ja .NET MAUI abil), töötada andmebaasidega ning kirjutada loogiliselt struktureeritud koodi.</p>
+
+
+        <a href="https://markjurgen24.thkit.ee/index.html" class="jurgen-btn">Vaata rohkem</a>
+    </section>
 
 </body>
 
