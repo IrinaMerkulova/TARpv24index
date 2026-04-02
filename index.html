@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="et">
+
 <head>
     <meta charset="UTF-8">
     <title>TARpv24 Ainemapid</title>
@@ -7,6 +8,7 @@
     <!-- CSS link -->
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <h1> TARpv24 Õpilaste ainemapid</h1>
@@ -18,18 +20,19 @@
     <!-- MINU OSA ALGUS -->
     <section class="minu-osa">
         <h2>Minu ainemapp</h2>
-        
+
         <p>Õpi SQL-i ja andmebaase lihtsalt ja arusaadavalt!</p>
-        
+
         <a href="SIIA_SINU_LINK" target="_blank">
             Vaata minu lehte
         </a>
-        
+
         <br><br>
-        
+
         <button onclick="alert('Tere!')">Vajuta</button>
     </section>
     <!-- MINU OSA LÕPP -->
+
 
     <section class="jurgen-section">
         <h2>Mark Jurgen portfoolio</h2>
@@ -43,6 +46,69 @@
         <a href="https://markjurgen24.thkit.ee/index.html" class="jurgen-btn">Vaata rohkem</a>
     </section>
 
+    <!-- ILLIA BLAHUN -->
+    <section class="illiabl">
+        <h2>Illia Blahun portfoolio</h2>
+
+        <p>
+            Mina olen Illia Blahun, algaja arendaja, kes õpib TTÜHK teisel kursusel
+            programmeerimise erialal. Hetkel omandan nooremarendaja oskusi ning arenen
+            aktiivselt IT-valdkonnas.
+        </p>
+
+        <p>
+            Õpin erinevaid programmeerimiskeeli – alates Pythonist kuni C#-ni, mis aitab
+            mul kujundada mitmekülgset arusaamist arendusest ja leida tõhusaid lahendusi.
+            Arendan pidevalt oma oskusi nii teoorias kui ka praktikas.
+        </p>
+
+        <p>
+            Olen vastutustundlik, õpin kiiresti ning püüdlen pideva enesearengu poole.
+            Olen avatud uutele võimalustele ning valmis töötama meeskonnas ja omandama
+            praktilist kogemust arenduse valdkonnas.
+        </p>
+
+        <a href="https://illiablahun24.thkit.ee/" target="_blank">
+            Vaata minu projekte
+        </a>
+    </section>
+
+
+    <!-- Maksimi osa algus -->
+    <section class="maksim-feature-card" aria-labelledby="maksim-feature-title">
+        <div class="maksim-feature-card__glow" aria-hidden="true"></div>
+        <div class="maksim-feature-card__content">
+            <p class="maksim-feature-card__eyebrow">Maksimi tutvustus</p>
+            <h2 id="maksim-feature-title" class="maksim-feature-card__title">Maksim</h2>
+            <p class="maksim-feature-card__intro">
+                Maksim õpib Tallinna Tööstushariduskeskuses noorem-tarkvaraarendajaks ning tunneb
+                C#, Pythonit, JavaScripti, HTML-i, Reacti ja SQL-i. Talle meeldivad selged
+                lahendused, praktiline probleemide lahendamine ning pidev enesearendamine.
+            </p>
+            <div class="maksim-feature-card__tags" aria-label="Maksimi oskused">
+                <span class="maksim-feature-card__tag">C#</span>
+                <span class="maksim-feature-card__tag">Python</span>
+                <span class="maksim-feature-card__tag">JavaScript</span>
+                <span class="maksim-feature-card__tag">HTML</span>
+                <span class="maksim-feature-card__tag">React</span>
+                <span class="maksim-feature-card__tag">SQL</span>
+            </div>
+            <button class="maksim-feature-card__button" type="button" aria-expanded="false"
+                aria-controls="maksim-feature-extra"
+                onclick="const details = document.getElementById('maksim-feature-extra'); const expanded = this.getAttribute('aria-expanded') === 'true'; details.hidden = expanded; this.setAttribute('aria-expanded', String(!expanded)); this.textContent = expanded ? 'Näita rohkem' : 'Peida lisainfo';">
+                Näita rohkem
+            </button>
+            <p id="maksim-feature-extra" class="maksim-feature-card__extra" hidden>
+                See on minu ainemapp ja portfoolio, kuhu kogun oma parimad veebitööd ning näitan,
+                kuidas ma samm-sammult lahendusi ehitan.
+            </p>
+        </div>
+    </section>
+    <!-- Maksimi osa lõpp -->
+
+
+
 
 </body>
+
 </html>
