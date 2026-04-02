@@ -8,3 +8,45 @@
 .minu-osa h2 {
     color: green;
 }
+
+
+.igor-portfolio-section {
+    border: 3px solid #4CAF50;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    background: linear-gradient(135deg, #e0ffe0, #ffffff);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.igor-portfolio-section:hover {
+    transform: scale(1.03);
+}
+
+.igor-portfolio-section h2 {
+    color: #2e7d32;
+}
+
+.igor-portfolio-section a {
+    color: #1b5e20;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.igor-portfolio-section a:hover {
+    text-decoration: underline;
+}
+
+.igor-portfolio-section button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.igor-portfolio-section button:hover {
+    background-color: #388e3c;
+}
