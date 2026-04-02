@@ -11,36 +11,6 @@
 
     <h1> TARpv24 Õpilaste ainemapid</h1>
 
-    <!-- SIIN võivad olla teiste õpilaste osad -->
-
-
-
-    <!-- Nikita Nikiforov ALGUS -->
-    <section class="nikiforov-osa">
-        <h2 class="nikiforov-title">Nikita Nikiforov Ainemapp</h2>
-
-        <p>Tere! Siin on minu portfoolio, kus saad õppida <strong>SQL-i ja andmebaase</strong> lihtsalt ja arusaadavalt.</p>
-
-        <p>Arendan oma oskusi ka veebitehnoloogiates, nagu <strong>HTML, CSS ja JavaScript</strong>.</p>
-        <p>Ja oskused tarkvara programmeerimisel <strong>Pythonis ja C#-is</strong>.</p>
-
-
-        <div class="nikiforov-actions">
-            <a href="https://nikitanikiforov24.thkit.ee/" target="_blank" class="nikiforov-link">
-                Vaata minu lehte
-            </a>
-            <br><br>
-            <button onclick="nikiforovAlert()" class="nikiforov-button">Vajuta siia</button>
-        </div>
-    </section>
-
-    <script>
-        function nikiforovAlert() {
-            alert('Tere! See on Nikita Nikiforovi sektsioon.');
-        }
-    </script>
-    <!-- Nikita Nikiforov OSA LÕPP -->
-
     <!-- ILLIA BLAHUN -->
     <section class="illiabl">
         <h2>Illia Blahun portfoolio</h2>
@@ -68,6 +38,105 @@
         </a>
     </section>
 
+
+    <!-- Maksimi osa algus -->
+    <section class="maksim-feature-card" aria-labelledby="maksim-feature-title">
+        <div class="maksim-feature-card__glow" aria-hidden="true"></div>
+        <div class="maksim-feature-card__content">
+            <p class="maksim-feature-card__eyebrow">Maksimi tutvustus</p>
+            <h2 id="maksim-feature-title" class="maksim-feature-card__title">Maksim</h2>
+            <p class="maksim-feature-card__intro">
+                Maksim õpib Tallinna Tööstushariduskeskuses noorem-tarkvaraarendajaks ning tunneb
+                C#, Pythonit, JavaScripti, HTML-i, Reacti ja SQL-i. Talle meeldivad selged
+                lahendused, praktiline probleemide lahendamine ning pidev enesearendamine.
+            </p>
+            <div class="maksim-feature-card__tags" aria-label="Maksimi oskused">
+                <span class="maksim-feature-card__tag">C#</span>
+                <span class="maksim-feature-card__tag">Python</span>
+                <span class="maksim-feature-card__tag">JavaScript</span>
+                <span class="maksim-feature-card__tag">HTML</span>
+                <span class="maksim-feature-card__tag">React</span>
+                <span class="maksim-feature-card__tag">SQL</span>
+            </div>
+            <button class="maksim-feature-card__button" type="button"
+                    onclick="window.open('https://maksimtsikvasvili24.thkit.ee/', '_blank', 'noopener,noreferrer');">
+                Mine minu lehele
+            </button>
+        </div>
+    </section>
+    <!-- Maksimi osa lõpp -->
+
+    <!-- NASTJA OSA ALGUS -->
+    <section class="nastja-section">
+        <div class="nastja-card">
+            <div class="nastja-header">
+                <div class="nastja-avatar">
+                    <img src="nastja/foto.jpg" alt="Anastasiia Radasheva" class="nastja-foto">
+                </div>
+                <div class="nastja-info">
+                    <h2 class="nastja-nimi">Anastasiia Radasheva</h2>
+                    <p class="nastja-tiitel">TARpv24 · Full-stack õppija</p>
+                </div>
+            </div>
+            <p class="nastja-kirjeldus">
+                Tere! Olen 18-aastane programmeerimishuvilane TTHKst.
+                Minu ainemapist leiad materjale <strong>Python, C#, SQL, Robotika</strong> ja <strong>Veebirakenduste</strong> kohta.
+            </p>
+            <div class="nastja-teemad">
+                <span class="nastja-tag"> Python & OOP</span>
+                <span class="nastja-tag"> C#</span>
+                <span class="nastja-tag"> SQL / Andmebaasid</span>
+                <span class="nastja-tag"> Robotika</span>
+                <span class="nastja-tag"> Web</span>
+            </div>
+            <div class="nastja-nupud">
+                <a href="https://anastasiiaradasheva24.thkit.ee/wp/eng/" target="_blank" class="nastja-link-nupp">
+                    Vaata minu ainemappi →
+                </a>
+                <button class="nastja-hello-nupp" onclick="nastjaHello()">Üllata mind!</button>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function nastjaHello() {
+            const teated = [
+                "Tere!  Vaata minu ainemappi — seal on palju huvitavat!",
+                "Fun fact: SQL on mu lemmik aine ️",
+                "Ma õpin TTHKs TARpv24 rühmas ",
+                "Olen ehitanud rakendusi C#, Python ja Webiga! "
+            ];
+            const juhuslik = teated[Math.floor(Math.random() * teated.length)];
+            alert(juhuslik);
+        }
+    </script>
+    <!-- NASTJA OSA LÕPP -->
+
+    <!-- Nikita Nikiforov ALGUS -->
+    <section class="nikiforov-osa">
+        <h2 class="nikiforov-title">Nikita Nikiforov Ainemapp</h2>
+
+        <p>Tere! Siin on minu portfoolio, kus saad õppida <strong>SQL-i ja andmebaase</strong> lihtsalt ja arusaadavalt.</p>
+
+        <p>Arendan oma oskusi ka veebitehnoloogiates, nagu <strong>HTML, CSS ja JavaScript</strong>.</p>
+        <p>Ja oskused tarkvara programmeerimisel <strong>Pythonis ja C#-is</strong>.</p>
+
+
+        <div class="nikiforov-actions">
+            <a href="https://nikitanikiforov24.thkit.ee/" target="_blank" class="nikiforov-link">
+                Vaata minu lehte
+            </a>
+            <br><br>
+            <button onclick="nikiforovAlert()" class="nikiforov-button">Vajuta siia</button>
+        </div>
+    </section>
+
+    <script>
+        function nikiforovAlert() {
+            alert('Tere! See on Nikita Nikiforovi sektsioon.');
+        }
+    </script>
+    <!-- Nikita Nikiforov OSA LÕPP -->
 
 
 </body>
