@@ -15,7 +15,59 @@
 
     <!-- SIIN võivad olla teiste õpilaste osad -->
 
+    <!-- NIKITA LITVINENKO OSA ALGUS -->
+    <section id="nikita-litvinenko-section" class="nikita-litvinenko-profile-card">
+        <div class="nikita-litvinenko-card-content">
+            <div class="nikita-litvinenko-avatar-title-container">
+                <div class="nikita-litvinenko-avatar-container">
+                    <div class="nikita-litvinenko-avatar-glow"></div>
+                    <img src="https://avatars.githubusercontent.com/u/195296126?v=4" alt="Nikita Litvinenko"
+                        class="nikita-litvinenko-avatar">
+                </div>
+                <h2 class="nikita-litvinenko-title">Nikita Litvinenko</h2>
+            </div>
 
+            <p class="nikita-litvinenko-description">Hei! Ma õpin Tallinna Tööstushariduskeskuses
+                noorem tarkvaraarendajaks. Siin on minu olulised lingid, kus on kõik
+                minu projektid ja õppematerjalid.</p>
+
+            <p class="nikita-litvinenko-description">Minu oskused:</p>
+
+            <div class="nikita-litvinenko-skills-grid">
+                <div class="nikita-litvinenko-skill-tag">HTML/CSS</div>
+                <div class="nikita-litvinenko-skill-tag">JavaScript</div>
+                <div class="nikita-litvinenko-skill-tag">C#</div>
+                <div class="nikita-litvinenko-skill-tag">C++</div>
+                <div class="nikita-litvinenko-skill-tag">Python</div>
+                <div class="nikita-litvinenko-skill-tag">SQL</div>
+                <div class="nikita-litvinenko-skill-tag">React</div>
+            </div>
+
+            <p class="nikita-litvinenko-description">Minu lingid:</p>
+
+            <div class="nikita-litvinenko-links">
+                <a href="https://nikitalitvinenko24.thkit.ee/" class="nikita-litvinenko-link-btn"
+                    target="_blank">Veebileht</a>
+                <a href="https://nikitalitvinenko24.thkit.ee/wp" class="nikita-litvinenko-link-btn"
+                    target="_blank">Wordpress</a>
+                <a href="https://github.com/nikita-lit" class="nikita-litvinenko-link-btn" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const skillTags = document.querySelectorAll('.nikita-litvinenko-skill-tag');
+
+        // Skill Interaction
+        skillTags.forEach(tag => {
+            tag.addEventListener('click', () => {
+                tag.style.transform = 'scale(1.2)';
+                setTimeout(() => tag.style.transform = 'scale(1)', 200);
+                alert(`Oled valinud oskuse: ${tag.innerText}`);
+            });
+        });
+    </script>
+    <!-- NIKITA LITVINENKO OSA LÕPP -->
 
     <!-- MINU OSA ALGUS -->
     <section class="minu-osa">
