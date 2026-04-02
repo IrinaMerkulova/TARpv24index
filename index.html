@@ -30,6 +30,9 @@
         <button onclick="alert('Tere!')">Vajuta</button>
     </section>
     <!-- MINU OSA LÕPP -->
+    <section id="rossakov" class="rossakov-section">
+        <h2>Martin Rossakov Portfolio</h2>
+
 
     <!-- ILLIA BLAHUN -->
     <section class="illiabl">
@@ -57,6 +60,34 @@
             Vaata minu projekte
         </a>
     </section>
+        <p>
+            Tere! Minu nimi on Martin Rossakov — ma olen algaja veebiarendaja. Õpin TTHK-s.
+            Ma õpin HTML-i, CSS-i ja JavaScripti ning ka teisi programmeerimiskeeli. Minu veebilehel on palju huvitavat ning palju töid erinevatest kooliainetest.
+        </p>
+
+        <p>
+            Vaata minu portfooliot, kus on koondatud minu projektid ja tööd:
+        </p>
+
+        <a href="https://martinrossakov24.thkit.ee/index.html"
+           class="rossakov-link"
+           target="_blank"
+           onclick="handlePortfolioClick(event)">
+            Ava portfoolio
+        </a>
+    </section>
+
+    <script>
+        function handlePortfolioClick(event) {
+            event.preventDefault();
+
+            alert("Aitäh, et vaatasid minu lehekülge!");
+
+            setTimeout(() => {
+                window.open("https://martinrossakov24.thkit.ee/index.html", "_blank");
+            }, 100);
+        }
+    </script>
 
 
 
