@@ -93,6 +93,7 @@
     cursor: pointer;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     box-shadow: 0 0 0 0 rgba(191, 219, 254, 0.3);
+    animation: maksimFeatureButtonGrow 1.8s ease-in-out infinite;
 }
 
 .maksim-feature-card__button:hover {
@@ -113,7 +114,6 @@
 }
 
 @keyframes maksimFeatureGlow {
-
     0%,
     100% {
         transform: translate(-35%, -8%) scale(1);
@@ -124,4 +124,40 @@
         transform: translate(30%, 10%) scale(1.15);
         opacity: 1;
     }
+}
+
+@keyframes maksimFeatureButtonGrow {
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.03);
+    }
+}
+
+.illiabl {
+    border: 2px solid green;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.illiabl h2 {
+    color: green;
+}
+
+.illiabl a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.illiabl a:hover {
+    background-color: darkgreen;
 }
