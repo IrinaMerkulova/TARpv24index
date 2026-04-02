@@ -11,6 +11,46 @@
     color: green;
 }
 
+
+
+.jurgen-section {
+    border: 2px solid #4CAF50;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #f0fff4;
+    text-align: center;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.jurgen-section:hover {
+    transform: scale(1.03);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.jurgen-section h2 {
+    color: #2e7d32;
+}
+
+.jurgen-section p {
+    margin: 10px 0 20px;
+}
+
+.jurgen-btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.jurgen-btn:hover {
+    background-color: #45a049;
+}
+
+
 .maksim-feature-card {
     position: relative;
     margin: 24px 20px;
@@ -93,6 +133,9 @@
     cursor: pointer;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     box-shadow: 0 0 0 0 rgba(191, 219, 254, 0.3);
+
+    animation: maksimFeatureButtonGrow 1.8s ease-in-out infinite;
+
 }
 
 .maksim-feature-card__button:hover {
@@ -105,7 +148,18 @@
     outline-offset: 3px;
 }
 
+
+.maksim-feature-card__extra {
+    margin: 18px 0 0;
+    max-width: 58ch;
+    line-height: 1.65;
+    color: #bfdbfe;
+}
+
+
+
 @keyframes maksimFeatureGlow {
+
 
     0%,
     100% {
@@ -118,6 +172,19 @@
         opacity: 1;
     }
 }
+
+
+@keyframes maksimFeatureButtonGrow {
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.03);
+    }
+}
+
 
 .illiabl {
     border: 2px solid green;
@@ -143,6 +210,7 @@
 .illiabl a:hover {
     background-color: darkgreen;
 }
+
 
 /* === NASTJA SEKTSIOON === */
 
@@ -278,6 +346,7 @@
     border-color: rgba(176, 196, 222, 0.7);
 }
 
+
 /*------------------ORLENKO-------------------------------*/
 .OrlenkoOsa {
     background: linear-gradient(135deg, #a8edea, #fed6e3);
@@ -342,58 +411,8 @@
     transform: scale(1.05);
 }
 /*------------------ORLENKO-------------------------------*/
-.nikiforov-osa {
-    border: 2px solid #2ecc71; /* Сочный зеленый */
-    padding: 25px;
-    margin: 30px auto;
-    border-radius: 15px;
-    background-color: #ffffff;
-    max-width: 600px;
-    box-shadow: 0 10px 20px rgba(46, 204, 113, 0.1); /* Легкая зеленая тень */
-    transition: all 0.3s ease;
-    position: relative;
-    overflow: hidden;
-}
 
-/* Декоративная полоска сверху */
-.nikiforov-osa::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 5px;
-    background: linear-gradient(90deg, #2ecc71, #27ae60);
-}
 
-.nikiforov-osa:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 15px 30px rgba(46, 204, 113, 0.2);
-}
-
-.nikiforov-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 15px;
-}
-
-.nikiforov-title {
-    color: #27ae60 !important;
-    margin: 0 !important;
-    font-size: 1.5rem !important;
-}
-
-.nikiforov-badge {
-    background: #e8f5e9;
-    color: #2e7d32;
-    padding: 4px 12px;
-    border-radius: 20px;
-    font-size: 0.8rem;
-    font-weight: bold;
-}
-
-/* Стили для тегов технологий */
 .nikiforov-skills-container {
     display: flex;
     flex-wrap: wrap;
