@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
 .minu-osa {
     border: 2px solid green;
     padding: 15px;
@@ -9,7 +11,7 @@
     color: green;
 }
 
-/* Oleksandra*/
+/* ======= OLEKSANDRA RYSHNIAK ======= */
 .oleksa-section {
     border: 2px solid #c4956a;
     border-radius: 14px;
@@ -49,7 +51,7 @@
     color: #3a2a1a;
 }
 
-.oleksa-role {
+.oleksa-section .oleksa-role {
     margin: 0;
     font-size: 19px;
     color: #7a5c3a;
@@ -61,7 +63,7 @@
     padding: 1.5rem 2rem;
 }
 
-.oleksa-bio {
+.oleksa-section .oleksa-bio {
     font-size: 16px;
     line-height: 1.75;
     color: #555;
@@ -75,7 +77,7 @@
     margin-bottom: 1.5rem;
 }
 
-.oleksa-skill {
+.oleksa-section .oleksa-skill {
     background: #faf8f5;
     border: 1px solid #e8ddd0;
     border-radius: 8px;
@@ -84,25 +86,25 @@
     cursor: default;
 }
 
-.oleksa-skill:hover {
+.oleksa-section .oleksa-skill:hover {
     border-color: #c4956a;
     background: #fdf5ec;
 }
 
-.oleksa-skill-name {
+.oleksa-section .oleksa-skill-name {
     font-size: 19px;
     font-weight: 600;
     color: #3a2a1a;
     margin: 0 0 4px;
 }
 
-.oleksa-skill-sub {
+.oleksa-section .oleksa-skill-sub {
     font-size: 15px;
     color: #9a8070;
     margin: 0;
 }
 
-.oleksa-footer {
+.oleksa-section .oleksa-footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -112,12 +114,12 @@
     gap: 8px;
 }
 
-.oleksa-contact {
+.oleksa-section .oleksa-contact {
     font-size: 17px;
     color: #9a8070;
 }
 
-.oleksa-btn {
+.oleksa-section .oleksa-btn {
     display: inline-block;
     background: #c4956a;
     color: #fff;
@@ -129,12 +131,384 @@
     transition: background 0.2s, transform 0.15s;
 }
 
-.oleksa-btn:hover {
+.oleksa-section .oleksa-btn:hover {
     background: #a87848;
     transform: translateY(-1px);
 }
 
-.oleksa-btn:active {
+.oleksa-section .oleksa-btn:active {
     transform: scale(0.97);
 }
-/*-----------------*/
+/* ======= OLEKSANDRA RYSHNIAK LÕPP ======= */
+
+.jurgen-section {
+    border: 2px solid #4CAF50;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #f0fff4;
+    text-align: center;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.jurgen-section:hover {
+    transform: scale(1.03);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.jurgen-section h2 {
+    color: #2e7d32;
+}
+
+.jurgen-section p {
+    margin: 10px 0 20px;
+}
+
+.jurgen-btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.jurgen-btn:hover {
+    background-color: #45a049;
+}
+
+.maksim-feature-card {
+    position: relative;
+    margin: 24px 20px;
+    padding: 2px;
+    border-radius: 22px;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #0f766e, #2563eb, #7c3aed);
+    overflow: hidden;
+    box-shadow: 0 18px 40px rgba(37, 99, 235, 0.18);
+}
+
+.maksim-feature-card__glow {
+    position: absolute;
+    inset: -30%;
+    background: radial-gradient(circle, rgba(255,255,255,0.28) 0%, rgba(255,255,255,0) 60%);
+    transform: translateX(-35%);
+    pointer-events: none;
+}
+
+.maksim-feature-card__content {
+    position: relative;
+    z-index: 1;
+    padding: 28px;
+    border-radius: 20px;
+    background: linear-gradient(160deg, rgba(10,14,35,0.94), rgba(22,28,64,0.92));
+    color: #e2e8f0;
+}
+
+.maksim-feature-card__eyebrow {
+    margin: 0 0 8px;
+    font-size: 0.85rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #93c5fd;
+}
+
+.maksim-feature-card__title {
+    margin: 0 0 14px;
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+.maksim-feature-card__intro {
+    margin: 0;
+    max-width: 62ch;
+    line-height: 1.7;
+}
+
+.maksim-feature-card__tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.maksim-feature-card__tag {
+    padding: 8px 12px;
+    border: 1px solid rgba(147,197,253,0.35);
+    border-radius: 999px;
+    background: rgba(59,130,246,0.14);
+    color: #dbeafe;
+    font-size: 0.95rem;
+    cursor: default;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+}
+
+.maksim-feature-card__tag:hover {
+    border-color: rgba(191,219,254,0.95);
+    background: rgba(96,165,250,0.2);
+    box-shadow: 0 0 0 2px rgba(191,219,254,0.2);
+}
+
+.maksim-feature-card__button {
+    padding: 12px 18px;
+    border: 2px solid rgba(191,219,254,0.75);
+    border-radius: 999px;
+    background: transparent;
+    color: #e2e8f0;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 0 0 0 rgba(191,219,254,0.3);
+    animation: maksimFeatureButtonGrow 1.8s ease-in-out infinite;
+}
+
+.maksim-feature-card__button:hover {
+    transform: scale(1.04);
+    box-shadow: 0 0 0 8px rgba(191,219,254,0.14);
+}
+
+.maksim-feature-card__button:focus-visible {
+    outline: 3px solid rgba(147,197,253,0.65);
+    outline-offset: 3px;
+}
+
+.maksim-feature-card__extra {
+    margin: 18px 0 0;
+    max-width: 58ch;
+    line-height: 1.65;
+    color: #bfdbfe;
+}
+
+@keyframes maksimFeatureGlow {
+    0%, 100% { transform: translate(-35%, -8%) scale(1); opacity: 0.65; }
+    50%       { transform: translate(30%, 10%) scale(1.15); opacity: 1; }
+}
+
+@keyframes maksimFeatureButtonGrow {
+    0%, 100% { transform: scale(1); }
+    50%       { transform: scale(1.03); }
+}
+
+.illiabl {
+    border: 2px solid green;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.illiabl h2 {
+    color: green;
+}
+
+.illiabl a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.illiabl a:hover {
+    background-color: darkgreen;
+}
+
+/* === NASTJA SEKTSIOON === */
+.nastja-section {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    margin: 30px 0;
+}
+
+.nastja-card {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 16px;
+    padding: 32px;
+    max-width: 520px;
+    width: 100%;
+    backdrop-filter: blur(10px);
+    animation: nastja-ilmub 0.7s ease both;
+}
+
+@keyframes nastja-ilmub {
+    from { opacity: 0; transform: translateY(24px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+.nastja-header {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-bottom: 20px;
+}
+
+.nastja-avatar {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid #e94560;
+    flex-shrink: 0;
+}
+
+.nastja-foto {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.nastja-nimi {
+    color: #ffffff;
+    font-size: 1.3rem;
+    margin: 0 0 4px 0;
+}
+
+.nastja-tiitel {
+    color: #e94560;
+    font-size: 0.85rem;
+    margin: 0;
+    letter-spacing: 0.05em;
+}
+
+.nastja-kirjeldus {
+    color: #b0c4de;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.nastja-kirjeldus strong {
+    color: #ffffff;
+}
+
+.nastja-teemad {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 24px;
+}
+
+.nastja-tag {
+    background: rgba(233,69,96,0.15);
+    border: 1px solid rgba(233,69,96,0.4);
+    color: #e94560;
+    border-radius: 20px;
+    padding: 4px 12px;
+    font-size: 0.8rem;
+    transition: background 0.2s, transform 0.2s;
+    cursor: default;
+}
+
+.nastja-tag:hover {
+    background: rgba(233,69,96,0.3);
+    transform: scale(1.05);
+}
+
+.nastja-nupud {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.nastja-link-nupp {
+    background: #e94560;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: background 0.2s, transform 0.15s;
+}
+
+.nastja-link-nupp:hover {
+    background: #c73652;
+    transform: translateY(-2px);
+}
+
+.nastja-hello-nupp {
+    background: transparent;
+    color: #b0c4de;
+    border: 1px solid rgba(176,196,222,0.4);
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.nastja-hello-nupp:hover {
+    background: rgba(176,196,222,0.1);
+    color: #ffffff;
+    border-color: rgba(176,196,222,0.7);
+}
+
+/* ======= ORLENKO ======= */
+.OrlenkoOsa {
+    background: linear-gradient(135deg, #a8edea, #fed6e3);
+    border: 3px solid #00b894;
+    padding: 25px;
+    margin: 25px auto;
+    border-radius: 15px;
+    text-align: center;
+    max-width: 500px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.OrlenkoOsa:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.25);
+}
+
+.OrlenkoOsa h2 {
+    color: #00b894;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+.OrlenkoOsa p {
+    font-size: 16px;
+    color: #2d3436;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.OrlenkoOsa a {
+    text-decoration: none;
+    color: white;
+    background-color: #00b894;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.OrlenkoOsa a:hover {
+    background-color: #019875;
+    transform: scale(1.05);
+}
+
+.OrlenkoOsa button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #0984e3;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.OrlenkoOsa button:hover {
+    background-color: #0652dd;
+    transform: scale(1.05);
+}
+/* ======= ORLENKO LÕPP ======= */
