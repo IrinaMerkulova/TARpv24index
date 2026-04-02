@@ -8,3 +8,40 @@
 .minu-osa h2 {
     color: green;
 }
+
+.jurgen-section {
+    border: 2px solid #4CAF50;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #f0fff4;
+    text-align: center;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.jurgen-section:hover {
+    transform: scale(1.03);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.jurgen-section h2 {
+    color: #2e7d32;
+}
+
+.jurgen-section p {
+    margin: 10px 0 20px;
+}
+
+.jurgen-btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.jurgen-btn:hover {
+    background-color: #45a049;
+}
