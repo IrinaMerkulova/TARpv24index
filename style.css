@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
 .minu-osa {
     border: 2px solid green;
     padding: 15px;
@@ -14,6 +16,7 @@
     margin: 24px 20px;
     padding: 2px;
     border-radius: 22px;
+    font-family: 'Poppins', sans-serif;
     background: linear-gradient(135deg, #0f766e, #2563eb, #7c3aed);
     overflow: hidden;
     box-shadow: 0 18px 40px rgba(37, 99, 235, 0.18);
