@@ -16,14 +16,20 @@
     <!-- NIKITA LITVINENKO OSA ALGUS -->
     <section id="nikita-litvinenko-section" class="nikita-litvinenko-profile-card">
         <div class="nikita-litvinenko-card-content">
-            <div class="nikita-litvinenko-avatar-container">
-                <div class="nikita-litvinenko-avatar-glow"></div>
-                <img src="https://avatars.githubusercontent.com/u/195296126?v=4" alt="Nikita Litvinenko"
-                    class="nikita-litvinenko-avatar">
+            <div class="nikita-litvinenko-avatar-title-container">
+                <div class="nikita-litvinenko-avatar-container">
+                    <div class="nikita-litvinenko-avatar-glow"></div>
+                    <img src="https://avatars.githubusercontent.com/u/195296126?v=4" alt="Nikita Litvinenko"
+                        class="nikita-litvinenko-avatar">
+                </div>
+                <h2 class="nikita-litvinenko-title">Nikita Litvinenko</h2>
             </div>
-            <h2 class="nikita-litvinenko-title">Nikita Litvinenko</h2>
-            <p class="nikita-litvinenko-description">Hei! Mina õpin TARpv24 grupis. See on minu ainemapp, kus on kõik
+
+            <p class="nikita-litvinenko-description">Hei! Ma õpin Tallinna Tööstushariduskeskuses
+                noorem tarkvaraarendajaks. Siin on minu olulised lingid, kus on kõik
                 minu projektid ja õppematerjalid.</p>
+
+            <p class="nikita-litvinenko-description">Minu oskused:</p>
 
             <div class="nikita-litvinenko-skills-grid">
                 <div class="nikita-litvinenko-skill-tag">HTML/CSS</div>
@@ -35,6 +41,8 @@
                 <div class="nikita-litvinenko-skill-tag">React</div>
             </div>
 
+            <p class="nikita-litvinenko-description">Minu lingid:</p>
+
             <div class="nikita-litvinenko-links">
                 <a href="https://nikitalitvinenko24.thkit.ee/" class="nikita-litvinenko-link-btn"
                     target="_blank">Veebileht</a>
@@ -42,44 +50,14 @@
                     target="_blank">Wordpress</a>
                 <a href="https://github.com/nikita-lit" class="nikita-litvinenko-link-btn" target="_blank">GitHub</a>
             </div>
-
-            <p id="nikita-litvinenko-skill-info" class="nikita-litvinenko-skill-info">Huvitav fakt: Liiguta hiirt kaardi
-                kohal!</p>
         </div>
     </section>
 
     <script>
-        const card = document.querySelector('.nikita-litvinenko-profile-card');
         const skillTags = document.querySelectorAll('.nikita-litvinenko-skill-tag');
-        const skillInfo = document.getElementById('nikita-litvinenko-skill-info');
-
-        // 3D Tilt Effect
-        card.addEventListener('mousemove', (e) => {
-            const rect = card.getBoundingClientRect();
-            const x = e.clientX - rect.left;
-            const y = e.clientY - rect.top;
-            const centerX = rect.width / 2;
-            const centerY = rect.height / 2;
-            const rotateX = (y - centerY) / 10;
-            const rotateY = (centerX - x) / 10;
-
-            card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
-        });
-
-        card.addEventListener('mouseleave', () => {
-            card.style.transform = 'perspective(1000px) rotateX(0deg) rotateY(0deg)';
-        });
 
         // Skill Interaction
         skillTags.forEach(tag => {
-            tag.addEventListener('mouseenter', () => {
-                const skill = tag.textContent;
-                skillInfo.innerText = `${skill} on üks minu lemmikvaldkondi!`;
-                skillInfo.style.opacity = '1';
-            });
-            tag.addEventListener('mouseleave', () => {
-                skillInfo.innerText = 'Huvitav fakt: Liiguta hiirt kaardi kohal!';
-            });
             tag.addEventListener('click', () => {
                 tag.style.transform = 'scale(1.2)';
                 setTimeout(() => tag.style.transform = 'scale(1)', 200);
