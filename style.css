@@ -32,3 +32,44 @@
 .illiabl a:hover {
     background-color: darkgreen;
 }
+/* Mariia Posvystak */
+
+.mariiaposvystak {
+    position: relative;
+    left: 0;
+    display: inline-block;
+    border-left: 3px double  Tan;
+    border-right: 3px double  Tan;
+    border-radius: 80px;
+    padding: 2%;
+}
+
+.mariia-pealkiri {
+    background-color: Tan;
+    padding: 1.5%;
+    border-radius: 120px;
+    width: 60%;
+    color: WhiteSmoke;
+}
+
+.mariia-tekst {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: Tan;
+}
+
+.mariia-link {
+    justify-content: center;
+    display: block;
+    color: Lavender;
+    background-color: SteelBlue;
+    text-decoration: none;
+    border-radius: 60px;
+    width: 20%;
+}
+
+.mariia-link:hover {
+    background-color: Tan;
+    color: whiteSmoke;
+    border-radius: 60px;
+}
