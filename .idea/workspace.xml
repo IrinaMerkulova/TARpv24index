@@ -4,41 +4,100 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="d8d8ba7d-1e1e-42a6-ab1e-568d4731c230" name="Changes" comment="" />
+=======
+<<<<<<< HEAD
+    <list default="true" id="767f9ef2-579f-4d13-9aaf-72574683cb5d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/amazonq.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+    <list default="true" id="d8d8ba7d-1e1e-42a6-ab1e-568d4731c230" name="Changes" comment="">
+>>>>>>> 8609baac493427d0b2d92a87226eafec2fd1f6d9
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
+>>>>>>> 77d3264807fb94ccf634afdc3d379c1bba4533e7
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
-    <execution />
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Christoferkrabbi"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:IrinaMerkulova/TARpv24index.git",
+    "accountId": "646d511f-9ebc-465e-b55a-298b7c92e51f"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="3BnBmvaIOppyHYPIqpZSUClG4Uy" />
+=======
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="3BnCee0BKpkxtoq6AKZXlCXxGG7" />
+>>>>>>> 8609baac493427d0b2d92a87226eafec2fd1f6d9
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 77d3264807fb94ccf634afdc3d379c1bba4533e7
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+<<<<<<< HEAD
     "git-widget-placeholder": "igor-feature",
+=======
+    "git-widget-placeholder": "Merging MarkJurgen",
+>>>>>>> 77d3264807fb94ccf634afdc3d379c1bba4533e7
     "last_opened_file_path": "C:/Users/opilane/Desktop/TARpv24index",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+<<<<<<< HEAD
     "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
+=======
+    "vue.rearranger.settings.migration": "true"
+=======
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/opilane/Desktop/TARpv24index&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+>>>>>>> 8609baac493427d0b2d92a87226eafec2fd1f6d9
+>>>>>>> 77d3264807fb94ccf634afdc3d379c1bba4533e7
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -50,13 +109,18 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d8d8ba7d-1e1e-42a6-ab1e-568d4731c230" name="Changes" comment="" />
-      <created>1775115544096</created>
+      <changelist id="767f9ef2-579f-4d13-9aaf-72574683cb5d" name="Changes" comment="" />
+      <created>1775115117047</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
+<<<<<<< HEAD
+      <updated>1775115117047</updated>
+      <workItem from="1775115118215" duration="2862000" />
+=======
       <updated>1775115544096</updated>
       <workItem from="1775115545346" duration="1559000" />
       <workItem from="1775117793438" duration="65000" />
+>>>>>>> 8609baac493427d0b2d92a87226eafec2fd1f6d9
     </task>
     <servers />
   </component>
